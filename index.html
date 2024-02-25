@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtuele Hond Verzorgen</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Virtuele Hond Verzorgen</h1>
+        <div class="dog-container">
+            <img src="hond.webp" alt="Hond" id="dog-img">
+        </div>
+        <div class="actions">
+            <button id="feed-btn">Eten geven</button>
+            <button id="walk-btn">Uitlaten</button>
+            <button id="clean-btn">Schoonmaken</button>
+        </div>
+        <div class="status">
+            <p id="hunger">Honger: <span>50</span></p>
+            <p id="happiness">Blijdschap: <span>50</span></p>
+            <p id="cleanliness">Schoonheid: <span>50</span></p>
+        </div>
+        <p id="message"></p>
+    </div>
+</body>
+</html>

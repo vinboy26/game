@@ -1,0 +1,40 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.dog-container {
+    margin-top: 20px;
+}
+
+#dog-img {
+    width: 200px;
+    height: auto;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.status {
+    margin-top: 20px;
+}
+
+.status p {
+    margin-bottom: 10px;
+}
